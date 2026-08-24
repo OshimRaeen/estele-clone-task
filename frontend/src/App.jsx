@@ -11,7 +11,7 @@ function App() {
   const { cart, addToCart, removeFromCart, wishlist, toggleWishlist } = useContext(StoreContext);
 
   useEffect(() => {
-    axios.get('http://localhost:8000/api/products')
+    axios.get('https://pleasant-stillness-production-14ee.up.railway.app/api/products')
       .then(response => setProducts(response.data))
       .catch(error => console.error("Error fetching products:", error));
   }, []);
