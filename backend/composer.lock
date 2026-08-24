@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "13425a94b920a198bae8b533eb30d398",
+    "content-hash": "a4f8482202076d8fab14b5008becc600",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -1674,16 +1674,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "64f38b87fa7d371853804161bfc701c9bc2cc00a"
+                "reference": "42118e66a53c492effaf92bc357e931985d5c6f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/64f38b87fa7d371853804161bfc701c9bc2cc00a",
-                "reference": "64f38b87fa7d371853804161bfc701c9bc2cc00a",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/42118e66a53c492effaf92bc357e931985d5c6f9",
+                "reference": "42118e66a53c492effaf92bc357e931985d5c6f9",
                 "shasum": ""
             },
             "require": {
@@ -1737,7 +1737,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/3.0.1"
+                "source": "https://github.com/guzzle/promises/tree/3.0.2"
             },
             "funding": [
                 {
@@ -1753,20 +1753,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-08-05T19:35:04+00:00"
+            "time": "2026-08-24T10:00:26+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "b094ded77ee97a6027ad6cf0e8c7b9f88381814c"
+                "reference": "a7c1d4af647d038b1b73c46af7d38712f7873d1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/b094ded77ee97a6027ad6cf0e8c7b9f88381814c",
-                "reference": "b094ded77ee97a6027ad6cf0e8c7b9f88381814c",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/a7c1d4af647d038b1b73c46af7d38712f7873d1d",
+                "reference": "a7c1d4af647d038b1b73c46af7d38712f7873d1d",
                 "shasum": ""
             },
             "require": {
@@ -1856,7 +1856,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/3.0.0"
+                "source": "https://github.com/guzzle/psr7/tree/3.0.1"
             },
             "funding": [
                 {
@@ -1872,7 +1872,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-07-20T13:48:31+00:00"
+            "time": "2026-08-24T10:01:14+00:00"
         },
         {
             "name": "guzzlehttp/uri-template",
@@ -10067,7 +10067,8 @@
     "prefer-lowest": false,
     "platform": {
         "php": "^8.3",
-        "ext-intl": "*"
+        "ext-intl": "*",
+        "ext-zip": "*"
     },
     "platform-dev": {},
     "plugin-api-version": "2.9.0"
