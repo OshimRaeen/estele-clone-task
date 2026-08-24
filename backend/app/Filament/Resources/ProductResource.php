@@ -48,7 +48,7 @@ class ProductResource extends Resource
                 Tables\Columns\TextColumn::make('name')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('price')
-                    ->money()
+                    ->money('inr')
                     ->sortable(),
                 Tables\Columns\IconColumn::make('is_in_stock')
                     ->boolean(),
